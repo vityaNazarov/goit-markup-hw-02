@@ -1,3 +1,88 @@
+:root {
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --text-color-blue: #2196f3;
+  --text-color-button: #ffffff;
+  --button-color: #f5f4fa;
+}
+
+ul {
+  list-style: none;
+}
+
 body {
-  background-color: white;
+  font-family: Roboto, sans-serif;
+  background-color: red;
+  color: var(--title-text-color);
+}
+
+/* логтип */
+
+.logotype {
+  color: var(--text-color-blue);
+}
+
+.logotype-secondary {
+  color: #000000;
+}
+
+.logotype-secondary.footer {
+  color: var(--text-color-button);
+}
+
+/* ссылки шапки */
+
+.link-header {
+  color: var(--title-text-color);
+}
+
+/* контакты шапки */
+
+.contacts-header {
+  color: var(--primary-text-color);
+}
+
+.contacts-header.accent:hover {
+  color: var(--text-color-blue);
+}
+
+.contacts-header.accent:focus {
+  color: var(--text-color-blue);
+}
+
+/* кнопки */
+
+.nav-button {
+  background-color: var(--button-color);
+  color: var(--title-text-color);
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: var(--text-color-blue);
+  color: var(--text-color-button);
+}
+
+.nav-button:focus {
+  background-color: var(--text-color-blue);
+  color: var(--text-color-button);
+}
+/* картинки */
+
+.image-header {
+  color: var(--title-text-color);
+}
+
+.image-text {
+  color: var(--primary-text-color);
+}
+
+/* footer */
+
+.logotype-secondary.footer {
+  color: var(--text-color-button);
+}
+
+.contacts-header.address {
+  color: var(--text-color-button);
 }
