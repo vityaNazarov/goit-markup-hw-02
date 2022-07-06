@@ -42,7 +42,11 @@ body {
   color: var(--primary-text-color);
 }
 
-.contacts-header.accent:hover :focus {
+.contacts-header.accent:hover {
+  color: var(--text-color-blue);
+}
+
+.contacts-header.accent:focus {
   color: var(--text-color-blue);
 }
 
