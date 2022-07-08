@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студия</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header -->
@@ -21,16 +22,14 @@
       <a href="index.html" lang="en" class="logotype"
         >Web<span class="logotype-secondary">Studio</span></a
       >
-      <nav>
-        <!-- ссылки шапки -->
-        <ul>
-          <li><a href="./index.html" class="link-header active">Студия</a></li>
-          <li><a href="./portfolio.html" class="link-header">Портфолио</a></li>
-          <li><a href="" class="link-header">Контакты</a></li>
-        </ul>
-      </nav>
+      <!-- ссылки шапки -->
+      <ul class="list">
+        <li><a href="./index.html" class="link-header active">Студия</a></li>
+        <li><a href="./portfolio.html" class="link-header">Портфолио</a></li>
+        <li><a href="" class="link-header">Контакты</a></li>
+      </ul>
       <!-- контакты шапки -->
-      <ul>
+      <ul class="list">
         <li>
           <a href="mailto:info@devstudio.com" lang="en" class="contacts-header accent"
             >info@devstudio.com</a
@@ -44,7 +43,7 @@
     <!-- main -->
     <main>
       <section class="section-desissions">
-        <h1 class="title">
+        <h1 class="main-title">
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
@@ -52,7 +51,7 @@
       </section>
       <section>
         <h2 hidden>Наши отличия</h2>
-        <ul>
+        <ul class="list">
           <li>
             <h3 class="differences">Внимание к деталям</h3>
             <p class="differences-text">
@@ -81,7 +80,7 @@
       </section>
       <section>
         <h2 class="team-interests">Чем мы занимаемся</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img src="./images/img(1).jpg" alt="печатает на клавиатуре" width="370" height="294" />
           </li>
@@ -96,7 +95,7 @@
       </section>
       <section class="section-team">
         <h2 class="team-interests">Наша команда</h2>
-        <ul>
+        <ul class="list">
           <li class="team-photo">
             <img src="./images/img(person1)(1).jpg" alt="мужчина" width="270" height="260" />
             <h3 class="team-name">Игорь Демьяненко</h3>
@@ -131,8 +130,8 @@
       <a href="index.html" lang="en" class="logotype"
         >Web<span class="logotype-secondary footer">Studio</span></a
       >
-      <address class="footer-list">
-        <ul>
+      <address class="footer-address">
+        <ul class="list">
           <li>
             <a
               href="https://goo.gl/maps/YywnYqMMY18rzYBH6"

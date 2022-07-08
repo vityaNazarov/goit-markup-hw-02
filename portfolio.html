@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header -->
@@ -23,7 +24,7 @@
         >
         <nav>
           <!-- ссылки шапки -->
-          <ul>
+          <ul class="list">
             <li><a href="./index.html" class="link-header">Студия</a></li>
             <li><a href="./portfolio.html" class="link-header active">Портфолио</a></li>
             <li><a href="" class="link-header">Контакты</a></li>
@@ -31,7 +32,7 @@
         </nav>
         <nav>
           <!-- контакты шапки -->
-          <ul>
+          <ul class="list">
             <li>
               <a href="mailto:info@devstudio.com" lang="en" class="contacts-header accent"
                 >info@devstudio.com</a
@@ -50,7 +51,7 @@
         <h1 hidden>Кнопки фильтр</h1>
         <nav>
           <!-- кнопки -->
-          <ul>
+          <ul class="list">
             <li><button type="button" class="nav-button">Все</button></li>
             <li><button type="button" class="nav-button">Веб-сайты</button></li>
             <li><button type="button" class="nav-button">Приложения</button></li>
@@ -59,7 +60,7 @@
           </ul>
         </nav>
         <!-- картинки -->
-        <ul>
+        <ul class="list">
           <li class="image">
             <img src="./images/img.jpg" alt="ноутбук" width="370" height="294" />
             <h2 class="image-header">Технокряк</h2>
@@ -117,8 +118,8 @@
       <a href="index.html" lang="en" class="logotype"
         >Web<span class="logotype-secondary footer">Studio</span></a
       >
-      <address class="footer-list">
-        <ul>
+      <address class="footer-address">
+        <ul class="list">
           <li>
             <a
               href="https://goo.gl/maps/YywnYqMMY18rzYBH6"
